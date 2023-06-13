@@ -1,12 +1,12 @@
-<article>
+<!-- <article>
   <% if notice %>
     <aside id="notice"><%= notice %></aside>
   <% end %>
   
   <h2>Your Cart</h2>
-    <table>
+    <table> -->
       <%= render @cart %>
-      <tfoot>
+      <!-- <tfoot>
         <tr>
           <th colspan="2">Total:</th>
           <td class="price"><%= number_to_currency(@cart.total_price) %></td>
@@ -14,4 +14,4 @@
       </tfoot>
     </table>  
   <%= button_to 'Empty Cart', @cart, method: :delete, data: {confirm: 'Are you sure?'}  %>
-</article>
+</article> -->
